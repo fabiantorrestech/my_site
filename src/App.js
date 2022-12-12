@@ -8,9 +8,9 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar/>
-            <Routes>
-              <Route path="/" exact/>
-            </Routes>
+          <Routes>
+            <Route path="/" exact/>
+          </Routes>
       </BrowserRouter>
     </>
   );
