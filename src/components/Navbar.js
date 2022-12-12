@@ -15,7 +15,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // hides the button on smaller window screens/mobile
+  // hides the hamburger button, unless on mobile/small windows
   const showButton = () => {
     if(window.innerWidth <= 960){
       setButton(false);
@@ -44,17 +44,17 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
                 About Me
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu}>
                 Contact Me
               </Link>
             </li>
