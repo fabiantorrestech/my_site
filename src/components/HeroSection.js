@@ -10,7 +10,7 @@ function HeroSection() {
       <video src={videos} autoPlay loop muted/>
       <h1>Welcome to my website!</h1>
       <p>Here you can find out about me, my projects, see my portfolio, and reach out to me! (:</p>
-      <div className='hero-btns'>
+      {/* <div className='hero-btns'>
         <Button className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'>
@@ -21,7 +21,7 @@ function HeroSection() {
           buttonSize='btn--large'>
             Another Test Button
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }
