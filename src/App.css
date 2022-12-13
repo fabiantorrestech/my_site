@@ -1,3 +1,4 @@
+/* styling to apply to entire site */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +9,7 @@
   .home,
   .about-me,
   .portfolio,
+  .contact-me,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -26,6 +28,14 @@
   }
   
   .portfolio {
+    background-image: url('/public/images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .contact-me {
     background-image: url('/public/images/img-1.jpg');
     background-position: center;
     background-size: fill;

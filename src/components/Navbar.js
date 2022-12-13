@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css';
@@ -8,6 +8,8 @@ import './Navbar.css';
 //  - ex: className='fa ...'
 
 function Navbar() {
+
+  // React Hook - to utilize state for button logic
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -24,6 +26,11 @@ function Navbar() {
     }
   };
 
+  // React hook - to show and hide the button
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener('resize', showButton);
   
   return (
@@ -31,12 +38,14 @@ function Navbar() {
       <nav className="navbar">
         <div className='navbar-container'>
           <Link to="/" className="navbar-logo">
-            LinkToLogo <i className='fab fa-typo3'></i>
+            Fabian Torres<i class="fas fa-code"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
+            {/* changes icon based on click's state */}
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
           </div>
           {/* allows hamburger menu to disappear/appear for mobile/shrunken windows */}
+          {/* changes className to allow different styling dependent on click's state */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -59,7 +68,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {Button && <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Sign Up</Button>}
+          {button && <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Sign Up</Button>}
         </div>
       </nav>
     </>
