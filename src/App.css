@@ -19,7 +19,7 @@
   }
   
   .about-me {
-    background-image: url('/public/images/img-2.jpg');
+    background-image: url('assets/images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
   }
   
   .portfolio {
-    background-image: url('/public/images/img-1.jpg');
+    background-image: url('assets/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
     font-size: 100px;
   }
   .contact-me {
-    background-image: url('/public/images/img-1.jpg');
+    background-image: url('assets/images/img-2.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@
   }
   
   .sign-up {
-    background-image: url('/public/images/img-8.jpg');
+    background-image: url('assets/images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
