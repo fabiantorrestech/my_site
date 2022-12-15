@@ -37,7 +37,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className='navbar-container'>
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/my_site" className="navbar-logo" onClick={closeMobileMenu}>
             Fabian Torres<i class="fas fa-code"></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -48,27 +48,28 @@ function Navbar() {
           {/* changes className to allow different styling dependent on click's state */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/my_site' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/my_site/about-me' className='nav-links' onClick={closeMobileMenu}>
                 About Me
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/my_site/portfolio' className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/my_site/contact-me' className='nav-links' onClick={closeMobileMenu}>
                 Contact Me
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Sign Up</Button>}
+          {/* unused button in the navbar (sign-up previously...) */}
+          {/* {button && <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Sign Up</Button>} */}
         </div>
       </nav>
     </>

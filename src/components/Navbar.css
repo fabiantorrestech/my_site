@@ -30,6 +30,8 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    /* makes sure that text does not wrap around */
+    white-space: nowrap; 
   }
   
   .fa-code {
