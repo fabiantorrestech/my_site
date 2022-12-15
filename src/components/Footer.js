@@ -6,7 +6,10 @@ import './Footer.css'
 function Footer() {
   return(
     <div className='footer-container'>
-      <section className='footer-subscription'>
+
+      {/* unused items for the footer */}
+
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Here is my footer heading
         </p>
@@ -19,9 +22,9 @@ function Footer() {
             <Button buttonStyle='btn--outline'>A button</Button>
           </form>
         </p>
-      </section>
+      </section> */}
 
-      <div className='footer-links'>
+      {/* <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Footer Link Items</h2>
@@ -29,19 +32,22 @@ function Footer() {
             <a href='https://www.github.com/fabiantorrestech'>Github</a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <section className='social-media'>
         <div className='social-media-wrap'>
 
           <div className='footer-logo'>
             {/* LINK IS NORMALLY HERE WITH, className='social-logo', className='fab fa-typo3' */}
-            <Link to='/my_site' className='social-logo'>
-              Fabian Torres<i class="fas fa-code"></i>
+            <Link to="/my_site" className='social-logo'>
+              Fabian Torres
+              <a href='https://fabiantorrestech.github.io/my_site'>
+                <i class="fas fa-code"/>
+              </a>
+              
             </Link>
           </div>
-          <small className='website-rights'> Fabian Torres 2022</small>
-
+          
           <div className='social-icons'>
             <div className='social-icon-link github' target="_blank" aria_label="Github">
                 <a href='https://www.github.com/fabiantorrestech'>
@@ -57,6 +63,7 @@ function Footer() {
 
         </div>
       </section>
+      <small className='website-rights'> Fabian Torres 2022</small>
     </div>
   )
 }

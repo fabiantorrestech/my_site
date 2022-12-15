@@ -1,3 +1,8 @@
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 .footer-container{
     background-color: #242424;
     padding: 4rem 0 2rem 0;
@@ -146,11 +151,14 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+        /* fix for "fabian Torres" at bottom of footer too close to socials */
+    margin-right: 80px;
 }
 
 .website-rights {
     color: #fff;
     margin-bottom: 16px;
+    margin-left: 
 }
 
 /* mobile specific stylizing */
@@ -173,5 +181,10 @@
 
     .social-media-wrap{
         flex-direction: column;
+    }
+    
+    /* undo the fix on mobile so it displays centered */
+    .social-logo{
+        margin-right: 0px;
     }
 }
