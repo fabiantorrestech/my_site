@@ -9,10 +9,9 @@ a, a:visited, a:active {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-
-    background-image: url('../../assets/images/img-2.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../../assets/images/img-2.jpg');
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
   }
