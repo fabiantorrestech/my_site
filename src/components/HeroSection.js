@@ -7,7 +7,7 @@ import videos from '../assets/videos/video-1.mp4'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src={videos} autoPlay loop muted/>
+        <video src={videos} autoPlay loop muted/>
       <h1>Welcome to my website!</h1>
       <p>Feel free to take a look around!(:</p>
       {/* unused buttons below */}

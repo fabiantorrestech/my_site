@@ -17,19 +17,19 @@ function Cards() {
             <CardItem 
               src={cardImage1}
               text='A bit about myself!'
-              label='mySampleLabel'
+              label='About Me'
               path="/my_site/about-me"
             />
             <CardItem 
               src={cardImage2}
-              text='Take a look at my portfolio!'
-              label='coolLabel'
+              text='A collection of some of my past projects'
+              label='Portfolio'
               path="/my_site/portfolio"
             />
             <CardItem 
               src={cardImage3}
-              text='Want to reach out to me? Click Here!'
-              label='coolLabel'
+              text='Want to reach out to me?'
+              label='Contact Me'
               path="/my_site/contact-me"
             />
           </ul>
