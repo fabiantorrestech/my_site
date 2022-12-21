@@ -14,8 +14,7 @@ function AboutMe(){
 
         <div className='about-me-body'>
           <body>
-            My name is Fabian Torres. I'm a Chicagoland native.<br/>
-            I'm a University of Illinois at Chicago (UIC) Computer Engineering Alum.<br/><br/>
+            My name is Fabian Torres. I'm a Chicagoland native and University of Illinois at Chicago (UIC) Computer Engineering Alum.<br/><br/>
 
             I consider myself a creative turned technologist. I seek to bring that same creativity, curiousity, and passion to the tech-space.<br/><br/>
 

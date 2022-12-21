@@ -26,20 +26,38 @@ a, a:visited, a:active {
     font-size: 50px;
     margin-right: 60px;
     margin-left: 60px;
-    margin-top: -300px;
+    margin-top: -100px;
 }
 
 .portfolio-body{
     color: #fff;
     font-size: 32px;
     margin-top: 8px;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 300px;
+    margin-left: 300px;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.portfolio-github-link {
+    text-align: center;
+}
+
 /* for mobile screens */
+@media screen and (max-width: 1060px){
+    .portfolio-title{
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .portfolio-body{
+        font-size: 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+}
+
 @media screen and (max-width: 960px){
     .portfolio-title{
         font-size: 50px;
@@ -54,6 +72,54 @@ a, a:visited, a:active {
     }
 
     .portfolio-body{
-        font-size: 30px;
+        font-size: 25px;
     }
+}
+
+
+@media screen and (max-width: 549px){
+    .portfolio-title{
+        font-size: 50px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .portfolio-body{
+        font-size: 25px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .portfolio-title{
+        font-size: 30px;
+        margin-top: 0px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .portfolio-body{
+        font-size: 25px;
+        margin-top: 0px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    .portfolio-title{
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .portfolio-body{
+        font-size: 18px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
 }
