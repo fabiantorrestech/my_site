@@ -10,7 +10,7 @@ import cardImage3 from '../assets/images/img-5.jpg'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>This is some more sample text</h1>
+      <h1>Website Sections</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
