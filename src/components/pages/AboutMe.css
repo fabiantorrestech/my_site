@@ -9,7 +9,7 @@ a, a:visited, a:active {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../../assets/images/img-3.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('../../assets/images/img-3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ a, a:visited, a:active {
 
 /* for mobile screens */
 @media screen and (max-width: 960px){
-    .contact-me-title{
+    .about-me-title{
         font-size: 50px;
         margin-top: -150px;
     }

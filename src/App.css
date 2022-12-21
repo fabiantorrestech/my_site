@@ -7,7 +7,6 @@
   }
   
   .home,
-  .portfolio,
   .sign-up {
     display: flex;
     height: 90vh;
