@@ -8,6 +8,8 @@ import portfolioFS from '../../assets/images/img-13.jpg'
 import bigO from '../../assets/images/bigO.png'
 import oldSite from '../../assets/images/oldSite.png'
 import modernWebsite from '../../assets/images/modernWebsite.png'
+import JSCalculator from '../../assets/images/JSCalculator.png'
+import RPS from '../../assets/images/RPS.png'
 
 // The cards are a bit odd --  they will grow and shrink with the amount of text placed in the cards.
 function CardsPortfolio() {
@@ -46,6 +48,18 @@ function CardsPortfolio() {
             text="Data Structures & Algorithms Problems w/ Explanations"
             label = 'DSA'
             path='https://github.com/fabiantorrestech/Data-Structures-Algorithms'
+          />
+          <CardItemPortfolio
+            src={JSCalculator}
+            text="JS Calculator Project"
+            label = 'Self Project'
+            path='https://fabiantorrestech.github.io/calculatorProject/'
+          />
+          <CardItemPortfolio
+            src={RPS}
+            text="Rock Paper Scissors"
+            label = 'Self Project'
+            path='https://fabiantorrestech.github.io/RockPaperScissors'
           />
           <CardItemPortfolio 
             src={modernWebsite}
