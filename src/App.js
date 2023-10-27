@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/my_site'>
+      <BrowserRouter basename='/#'>
         <Navbar/>
         <Routes>
           <Route path='/my_site' exact element={<Home/>} />
