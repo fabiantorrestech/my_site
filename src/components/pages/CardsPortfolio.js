@@ -23,7 +23,7 @@ function CardsPortfolio() {
             src={portfolioConway}
             text="Conway's Game of Life - C"
             label = 'CS 107'
-            path='https://github.com/fabiantorrestech/conways_game_of_life'
+            path='https://replit.com/@fabiantorrestec/conwaysgameoflife#README.md'
           />
           <CardItemPortfolio 
             src={portfolioRTC}
@@ -41,8 +41,14 @@ function CardsPortfolio() {
             src={portfolioFS}
             text="Fault Simulator (Digital Circuits) - Python"
             label = 'ECE 464'
-            path='https://drive.google.com/file/d/1cCqXRpZHynB8E7DFaA2Mnhq0AH6b53an/view?usp=sharing'
+            path='https://replit.com/@fabiantorrestec/FaultSimulatorProj1#README.txt'
           />
+          </ul>
+        </div>
+      </div>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
           <CardItemPortfolio 
             src={bigO}
             text="Data Structures & Algorithms Problems w/ Explanations"
@@ -67,6 +73,12 @@ function CardsPortfolio() {
             label = 'Website'
             path='https://github.com/fabiantorrestech/my_site'
           />
+          </ul>
+        </div>
+      </div>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
           <CardItemPortfolio 
             src={oldSite}
             text="UIC Student website built via Google Pages"
