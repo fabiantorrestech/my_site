@@ -35,7 +35,7 @@ function CardsPortfolio() {
             src={portfolioLS}
             text="Linux Shell Interface - C"
             label = 'CS 361'
-            path='https://drive.google.com/file/d/1MUAN0WOX0eTkuLNzIqfQpq0nX0cruYPT/view?usp=sharing'
+            path='https://replit.com/@fabiantorrestec/LinuxShellInterface#README.md'
           />
           <CardItemPortfolio 
             src={portfolioFS}
