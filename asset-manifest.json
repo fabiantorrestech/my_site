@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_site/static/css/main.7d13f5a1.css",
-    "main.js": "/my_site/static/js/main.67706f6e.js",
+    "main.js": "/my_site/static/js/main.af90af09.js",
     "static/js/787.639f1a63.chunk.js": "/my_site/static/js/787.639f1a63.chunk.js",
     "static/media/solderingCompressed.mp4": "/my_site/static/media/solderingCompressed.d92b4bab982cd7c85bbf.mp4",
     "static/media/img-2.jpg": "/my_site/static/media/img-2.1d27d7b36156de254ffe.jpg",
@@ -22,11 +22,11 @@
     "static/media/img-12.jpg": "/my_site/static/media/img-12.a2b79e2c712014608c95.jpg",
     "index.html": "/my_site/index.html",
     "main.7d13f5a1.css.map": "/my_site/static/css/main.7d13f5a1.css.map",
-    "main.67706f6e.js.map": "/my_site/static/js/main.67706f6e.js.map",
+    "main.af90af09.js.map": "/my_site/static/js/main.af90af09.js.map",
     "787.639f1a63.chunk.js.map": "/my_site/static/js/787.639f1a63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d13f5a1.css",
-    "static/js/main.67706f6e.js"
+    "static/js/main.af90af09.js"
   ]
 }
