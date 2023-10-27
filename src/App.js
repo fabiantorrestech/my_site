@@ -11,13 +11,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/#'>
+      <BrowserRouter>
         <Navbar/>
         <Routes>
           <Route path='/my_site' exact element={<Home/>} />
-          <Route path='/my_site/about-me' exact element={<AboutMe/>} />
-          <Route path='/my_site/portfolio' exact element={<Portfolio/>} />
-          <Route path='/my_site/contact-me' exact element={<ContactMe/>} />
+          <Route basename='/my_site' path='/my_site/about-me' exact element={<AboutMe/>} />
+          <Route basename='/my_site' path='/my_site/portfolio' exact element={<Portfolio/>} />
+          <Route basename='/my_site' path='/my_site/contact-me' exact element={<ContactMe/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
